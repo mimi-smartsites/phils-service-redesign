@@ -4,7 +4,6 @@ Redesign concept for [philsservice.com](https://philsservice.com) (Phil's Servic
 This is a **static, front-end prototype** for the dev team to build from. It is not wired to WordPress, forms, or analytics.
 
 - Live preview: https://share.smartsites.com/phils-service/website-redesign
-- Client project: SmartSites AC #7607
 
 ## Run it
 
