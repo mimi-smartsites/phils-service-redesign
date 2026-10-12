@@ -26,6 +26,7 @@ Then go to http://localhost:8080.
 | `standalone/` | Single-file build with images inlined. |
 | `content/live-site-copy.json` | Copy scraped from the live site (home, about, careers, makes landing, 18 service pages, 10 make pages, 4 location pages), as ordered `[tag, text]` blocks. The prototype renders these as-is. |
 | `content/blog-posts.json` | The 9 most recent blog posts (full text) from the live WP REST API. |
+| `docs/Phils-Service-Website-Plan-Redesign-2026.xlsx` | Updated website plan (same format as the client workbook's "New Website Plan" tab): every page/URL with status, live H1, titles/metas, design notes, deep link to the prototype page, and dev notes. Second tab = global build notes. |
 
 ## How the prototype is built
 

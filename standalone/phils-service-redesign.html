@@ -2082,8 +2082,8 @@ const GROUP_ICON={"Maintenance":"i-check","Engine & Drivetrain":"i-engine","Brak
 const DD_COLS=[["Maintenance","Tires"],["Engine & Drivetrain","Fleet"],["Brakes & Suspension","Electrical & Comfort"]];
 const MAKES={
  "Asian":["Acura","Honda","Hyundai","Infiniti","Lexus","Mazda","Mitsubishi","Nissan","Subaru","Toyota"],
- "Domestic":["Buick","Cadillac","Chevrolet","Chrysler","Dodge","Ford","GMC","Jeep","Lincoln","Ram"],
- "European":["Audi","BMW","Land Rover","McLaren","Mercedes-Benz","MINI","Porsche","Volkswagen","Volvo"]
+ "Domestic":["Buick","Cadillac","Chevrolet","Chrysler","Dodge","Ford","GMC","Jeep","Lincoln","Mercury","Pontiac","Ram"],
+ "European":["Audi","BMW","Fiat","Land Rover","McLaren","Mercedes-Benz","MINI","Porsche","Volkswagen","Volvo"]
 };
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 const MAKE_LIST=Object.entries(MAKES).flatMap(([r,l])=>l.map(n=>({name:n,region:r,id:slug(n)}))).sort((a,b)=>a.name.localeCompare(b.name));
